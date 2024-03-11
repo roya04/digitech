@@ -1,32 +1,8 @@
 /* Blog */
 .section-blog {
     position: relative;
-    &::before {
-        width: 70px;
-        height: 100px;
-        content: "";
-        background-image: url("../img/blog/shape-1.png");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 40px;
-        right: 50px;
-        z-index: 0;
-    }
-    &::after {
-        width: 70px;
-        height: 100px;
-        content: "";
-        background-image: url("../img/blog/shape-2.png");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        bottom: 150px;
-        left: 40px;
-        z-index: 0;
-    }
+    
+   
 }
 
 .cr-blog-overlay {

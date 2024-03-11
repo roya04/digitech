@@ -2,19 +2,7 @@
 .section-product-banner {
     position: relative;
 
-    &::before {
-        width: 45px;
-        height: 80px;
-        content: "";
-        background-image: url("../img/shape/8.png");
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: 130px;
-        right: 20px;
-        z-index: 0;
-    }
+   
 }
 
 .cr-product-banner-image {

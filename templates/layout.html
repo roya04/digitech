@@ -16,10 +16,10 @@
      <meta name="description" content="Carrot - Multipurpose eCommerce HTML Template.">
      <meta name="author" content="ashishmaraviya">
  
-     <title>Carrot - Multipurpose eCommerce HTML Template</title>
+     <title>{% block title %}{% endblock title %}</title>
  
      <!-- App favicon -->
-     <link rel="shortcut icon" href="{% static 'img/logo/favicon.png' %}">
+     <link rel="shortcut icon" href="{% static 'img/logo/digitechIcon.png' %}">
  
      <!-- Icon CSS -->
      <link rel="stylesheet" href="{% static 'css/vendor/materialdesignicons.min.css' %}">
@@ -54,8 +54,8 @@
                  <div class="col-lg-12">
                      <div class="top-header">
                          <a href="index.html" class="cr-logo">
-                             <img src="{% static 'img/logo/logo.png' %}" alt="logo" class="logo">
-                             <img src="{% static 'img/logo/dark-logo.png' %}" alt="logo" class="dark-logo">
+                             <img src="{% static 'img/logo/digitechLogo.png' %}" alt="logo" class="logo">
+                             <img src="{% static 'img/logo/digitechLogo.png' %}" alt="logo" class="dark-logo">
                          </a>
                          <form class="cr-search">
                              <input class="search-input" type="text" placeholder="Search For items...">
@@ -553,8 +553,8 @@
                 <div class="col-xl-4 col-lg-6 col-sm-12 col-12 cr-footer-border">
                     <div class="cr-footer-logo">
                         <div class="image">
-                            <img src="{% static 'img/logo/logo.png' %}" alt="logo" class="logo">
-                            <img src="{% static 'img/logo/dark-logo.png' %}" alt="logo" class="dark-logo">
+                            <img src="{% static 'img/logo/digitechLogo.png' %}" alt="logo" class="logo">
+                            <img src="{% static 'img/logo/digitechLogo.png' %}" alt="logo" class="dark-logo">
                         </div>
                         <p>Carrot is the biggest market of grocery products. Get your daily needs from our store.</p>
                     </div>
@@ -789,6 +789,7 @@
                 </div>
             </div>
         </div>
+        
             <!-- Vendor Custom -->
     <script src="{% static 'js/vendor/jquery-3.6.4.min.js' %}"></script>
     <script src="{% static 'js/vendor/jquery.zoom.min.js' %}"></script>

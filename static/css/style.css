@@ -2176,36 +2176,8 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
   position: relative;
   z-index: 1;
 }
-.cr-hero-banner::before {
-  width: 50px;
-  height: 50px;
-  content: "";
-  background-image: url("../img/shape/2.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 0;
-  opacity: 0.5;
-}
-.cr-hero-banner::after {
-  width: 100px;
-  height: 100px;
-  content: "";
-  background-image: url("../img/shape/5.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  z-index: 0;
-  -webkit-animation: left-right 10s linear infinite;
-          animation: left-right 10s linear infinite;
-  opacity: 0.5;
-}
+
+
 @-webkit-keyframes left-right {
   0% {
     left: 0px;
@@ -2263,36 +2235,8 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .cr-hero-banner .container {
   position: relative;
 }
-.cr-hero-banner .container::before {
-  width: 80px;
-  height: 80px;
-  content: "";
-  background-image: url("../img/shape/4.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  z-index: 0;
-  top: -15px;
-  left: 500px;
-  -webkit-animation: rotate 10s linear infinite;
-          animation: rotate 10s linear infinite;
-  opacity: 0.5;
-}
-.cr-hero-banner .container::after {
-  width: 100px;
-  height: 100px;
-  content: "";
-  background-image: url("../img/shape/3.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: -30px;
-  right: 500px;
-  z-index: 0;
-  opacity: 0.5;
-}
+
+
 
 .section-hero .swiper-container-horizontal > .swiper-pagination-bullets {
   bottom: 15px !important;
@@ -2326,7 +2270,6 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 
 .cr-banner-image-one {
   width: 100%;
-  background-image: url("../img/banner/banner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2334,7 +2277,6 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 
 .cr-banner-image-two {
   width: 100%;
-  background-image: url("../img/banner/banner-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3248,19 +3190,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-testimonial {
   position: relative;
 }
-.section-testimonial::before {
-  width: 100px;
-  height: 100px;
-  content: "";
-  background-image: url("../img/shape/11.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 20px;
-  left: -20px;
-  z-index: 0;
-}
+
 
 .cr-testimonial-pt-50 {
   padding-top: 50px;
@@ -3444,37 +3374,11 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-popular-product-shape {
   position: relative;
 }
-.section-popular-product-shape::before {
-  width: 80px;
-  height: 110px;
-  content: "";
-  background-image: url("../img/product/shape-1.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 270px;
-  left: 20px;
-  z-index: 0;
-}
+
 .section-popular-product-shape .container {
   position: relative;
 }
-.section-popular-product-shape .container::after {
-  width: 110px;
-  height: 110px;
-  content: "";
-  background-image: url("../img/shape/10.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-  position: absolute;
-  bottom: -100px;
-  left: -100px;
-  z-index: 0;
-}
+
 
 /* popular-product */
 .d-product {
@@ -3594,19 +3498,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-popular {
   position: relative;
 }
-.section-popular::before {
-  width: 80px;
-  height: 110px;
-  content: "";
-  background-image: url("../img/shape/9.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 150px;
-  right: 20px;
-  z-index: 0;
-}
+
 
 .cr-products-rightbar {
   position: relative;
@@ -3907,19 +3799,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-product-banner {
   position: relative;
 }
-.section-product-banner::before {
-  width: 45px;
-  height: 80px;
-  content: "";
-  background-image: url("../img/shape/8.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 130px;
-  right: 20px;
-  z-index: 0;
-}
+
 
 .cr-product-banner-image {
   position: relative;
@@ -4034,19 +3914,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-categories {
   position: relative;
 }
-.section-categories::before {
-  width: 50px;
-  height: 50px;
-  content: "";
-  background-image: url("../img/shape/6.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  right: 50px;
-  z-index: 0;
-}
+
 .section-categories .tab-content {
   width: 100%;
 }
@@ -4421,19 +4289,7 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-services {
   position: relative;
 }
-.section-services::before {
-  width: 80px;
-  height: 80px;
-  content: "";
-  background-image: url("../img/shape/7.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 0;
-  left: 20px;
-  z-index: 0;
-}
+
 
 .cr-services {
   padding: 24px;
@@ -4527,32 +4383,8 @@ ul.navbar-nav .dropdown:hover .dropdown-menu {
 .section-blog {
   position: relative;
 }
-.section-blog::before {
-  width: 70px;
-  height: 100px;
-  content: "";
-  background-image: url("../img/blog/shape-1.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 40px;
-  right: 50px;
-  z-index: 0;
-}
-.section-blog::after {
-  width: 70px;
-  height: 100px;
-  content: "";
-  background-image: url("../img/blog/shape-2.png");
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 150px;
-  left: 40px;
-  z-index: 0;
-}
+
+
 
 .cr-blog-overlay {
   width: 100%;
