@@ -249,13 +249,25 @@
             infinite: true,
             dots: false,
             arrows: false,
-            slidesToShow: 3,
+            slidesToShow: 5,
             slidesToScroll: 1,
             autoplay: true,
-            autoplaySpeed: 3000,
+            autoplaySpeed: 2000,
             responsive: [
                 {
                     breakpoint: 1400,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 992,
                     settings: {
                         slidesToShow: 2,
                     }

@@ -43,9 +43,9 @@
  <body class="body-bg-6">
  
      <!-- Loader -->
-     <div id="cr-overlay">
+     {% comment %} <div id="cr-overlay">
          <span class="loader"></span>
-     </div>
+     </div> {% endcomment %}
  
      <!-- Header -->
      <header>
@@ -803,6 +803,14 @@
 
     <!-- Main Custom -->
     <script src="{% static 'js/main.js' %}"></script>
+    <script>
+        $(document).ready(function() {
+            $('.model-oraganic-product').click(function() {
+                var targetModalId = $(this).data('target');
+                $(targetModalId).modal('show');
+            });
+        });
+    </script>
 </body>
 
 </html>
